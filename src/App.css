@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  background-color:black;
+  color: white;
+}
+
+.repo-title {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex: 1; */
+  /* justify-self: flex-start;
+  align-self: flex-start; */
+  align-items: left;
+}
+
+.repo-info {
+  display: flex;
+  margin-right: 40px;
+  margin-left: auto;
+  /* justify-self: end;
+  align-self: flex-end; */
+  align-items: center;
+}
+
+
+img {
+  height: 60px;
+}
+
+.angular {
+  text-align: left;
+  padding-left: 100px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  /* font-size: 25px; */
+}
